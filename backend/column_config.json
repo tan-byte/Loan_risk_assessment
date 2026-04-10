@@ -1,0 +1,27 @@
+{
+  "cat_cols_raw": [
+    "gender",
+    "education",
+    "state",
+    "urban_rural",
+    "employment_type",
+    "loan_type",
+    "loan_purpose"
+  ],
+  "num_cols_raw": [
+    "age",
+    "employment_years",
+    "annual_income_inr",
+    "loan_amount_inr",
+    "loan_tenure_months",
+    "interest_rate_pct",
+    "credit_score",
+    "num_existing_loans",
+    "dti_ratio",
+    "ltv_ratio",
+    "has_collateral",
+    "bureau_enquiries_6m",
+    "missed_payments_2y",
+    "savings_account_balance_inr"
+  ]
+}

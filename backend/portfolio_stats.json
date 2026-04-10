@@ -1,0 +1,55 @@
+{
+  "total_records": 8000,
+  "overall_default_rate": 0.2785,
+  "default_by_loan_type": {
+    "Auto_Loan": 0.2742,
+    "Education_Loan": 0.3136,
+    "Gold_Loan": 0.2477,
+    "Home_Loan": 0.2639,
+    "MSME_Loan": 0.2804,
+    "Personal_Loan": 0.2919
+  },
+  "default_by_employment": {
+    "Business_Owner": 0.2659,
+    "Government": 0.2677,
+    "Retired": 0.2609,
+    "Salaried": 0.2744,
+    "Self_Employed": 0.3001
+  },
+  "default_by_urban_rural": {
+    "Rural": 0.272,
+    "Semi_Urban": 0.2787,
+    "Urban": 0.2847
+  },
+  "default_by_gender": {
+    "Female": 0.2681,
+    "Male": 0.2821
+  },
+  "default_by_education": {
+    "Diploma": 0.2766,
+    "Graduate": 0.2623,
+    "No_Formal": 0.2802,
+    "Post_Graduate": 0.2861,
+    "Undergraduate": 0.2863
+  },
+  "default_by_state": {
+    "AP": 0.2971,
+    "DL": 0.3062,
+    "GJ": 0.2512,
+    "KA": 0.2857,
+    "MH": 0.2623,
+    "RJ": 0.283,
+    "TN": 0.2784,
+    "TS": 0.2923,
+    "UP": 0.2602,
+    "WB": 0.2663
+  },
+  "credit_score_bands": {
+    "550-600": 0.3963,
+    "600-650": 0.4071,
+    "650-700": 0.3055,
+    "700-750": 0.2195,
+    "750-800": 0.224,
+    "800-900": 0.2019
+  }
+}

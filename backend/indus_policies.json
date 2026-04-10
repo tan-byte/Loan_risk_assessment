@@ -1,0 +1,35 @@
+{
+    "bank_name": "IndusCredit Finance",
+    "loan_products": {
+        "personal_loan": {
+            "salaried": {
+                "min_age": 21,
+                "max_age": 60,
+                "min_monthly_income": 25000,
+                "min_experience_years": 2,
+                "current_job_tenure": 1,
+                "min_cibil": 730
+            },
+            "self_employed": {
+                "min_age": 25,
+                "max_age": 65,
+                "min_annual_income": 480000,
+                "business_continuity_years": 5,
+                "min_cibil": 730
+            },
+            "common_docs": ["PAN Card", "Aadhaar Card", "Latest 3 Months Salary Slips", "6 Months Bank Statement"]
+        },
+        "home_loan": {
+            "min_age": 24,
+            "max_age": 70,
+            "min_experience_years": 3,
+            "max_tenure_years": 30,
+            "required_docs": ["Property Chain Documents", "Approved Map", "Last 2 Years ITR"]
+        }
+    },
+    "regional_policies": {
+        "Rajasthan": "Mandatory agricultural land-use verification for rural collateral.",
+        "Maharashtra": "Additional 1% stamp duty check required for urban property transactions.",
+        "Karnataka": "Digital e-stamping is mandatory for all loan agreements."
+    }
+}
